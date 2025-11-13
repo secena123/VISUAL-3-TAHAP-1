@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>800</width> <height>600</height> </rect> </property>
+  <property name="windowTitle"> <string>Sistem Informasi Perkantoran</string> </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelTitle">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>APLIKASI INVENTARIS KANTOR</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>800</width> <height>22</height> </rect> </property>
+   <widget class="QMenu" name="menuData">
+    <property name="title"> <string>Menu Data</string> </property>
+    <addaction name="actionBarang"/>
+    <addaction name="actionPesanan"/>
+    <addaction name="actionRiwayat"/>
+    <addaction name="actionSatuan"/>
+   </widget>
+   <addaction name="menuData"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBarang"> <property name="text"> <string>Data Barang</string> </property> </action>
+  <action name="actionPesanan"> <property name="text"> <string>Data Pesanan</string> </property> </action>
+  <action name="actionRiwayat"> <property name="text"> <string>Riwayat</string> </property> </action>
+  <action name="actionSatuan"> <property name="text"> <string>Data Satuan</string> </property> </action>
+ </widget>
+ <resources/> <connections/>
+</ui>

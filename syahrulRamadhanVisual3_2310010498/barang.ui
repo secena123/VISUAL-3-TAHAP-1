@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormBarang</class>
+ <widget class="QWidget" name="FormBarang">
+  <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>800</width> <height>700</height> </rect> </property>
+  <property name="windowTitle"> <string>Data Barang</string> </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry"> <rect> <x>50</x> <y>20</y> <width>450</width> <height>350</height> </rect> </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0"><widget class="QLabel" name="l1"><property name="text"><string>ID Barang</string></property></widget></item>
+    <item row="0" column="1"><widget class="QLineEdit" name="editID"/></item>
+    <item row="1" column="0"><widget class="QLabel" name="l2"><property name="text"><string>Kode</string></property></widget></item>
+    <item row="1" column="1"><widget class="QLineEdit" name="editKode"/></item>
+    <item row="2" column="0"><widget class="QLabel" name="l3"><property name="text"><string>Nama Barang</string></property></widget></item>
+    <item row="2" column="1"><widget class="QLineEdit" name="editNama"/></item>
+    <item row="3" column="0"><widget class="QLabel" name="l4"><property name="text"><string>Keterangan</string></property></widget></item>
+    <item row="3" column="1"><widget class="QLineEdit" name="editKet"/></item>
+    <item row="4" column="0"><widget class="QLabel" name="l5"><property name="text"><string>Stok Awal</string></property></widget></item>
+    <item row="4" column="1"><widget class="QLineEdit" name="editStokAwal"/></item>
+    <item row="5" column="0"><widget class="QLabel" name="l6"><property name="text"><string>Stok</string></property></widget></item>
+    <item row="5" column="1"><widget class="QLineEdit" name="editStok"/></item>
+    <item row="6" column="0"><widget class="QLabel" name="l7"><property name="text"><string>ID Satuan</string></property></widget></item>
+    <item row="6" column="1"><widget class="QLineEdit" name="editIDSatuan"/></item>
+    <item row="7" column="0"><widget class="QLabel" name="l8"><property name="text"><string>Rekomendasi</string></property></widget></item>
+    <item row="7" column="1"><widget class="QLineEdit" name="editRek"/></item>
+    <item row="8" column="0"><widget class="QLabel" name="l9"><property name="text"><string>Status</string></property></widget></item>
+    <item row="8" column="1"><widget class="QLineEdit" name="editStatus"/></item>
+    <item row="9" column="0"><widget class="QLabel" name="l10"><property name="text"><string>Admin View</string></property></widget></item>
+    <item row="9" column="1"><widget class="QLineEdit" name="editAdm"/></item>
+    <item row="10" column="0"><widget class="QLabel" name="l11"><property name="text"><string>Staf View</string></property></widget></item>
+    <item row="10" column="1"><widget class="QLineEdit" name="editStaf"/></item>
+    <item row="11" column="0"><widget class="QLabel" name="l12"><property name="text"><string>Tanggal Update</string></property></widget></item>
+    <item row="11" column="1"><widget class="QLineEdit" name="editTgl"/></item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan"> <property name="geometry"> <rect> <x>60</x> <y>390</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Simpan</string> </property> </widget>
+  <widget class="QPushButton" name="btnHapus"> <property name="geometry"> <rect> <x>170</x> <y>390</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Hapus</string> </property> </widget>
+  <widget class="QPushButton" name="btnUbah"> <property name="geometry"> <rect> <x>280</x> <y>390</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Ubah</string> </property> </widget>
+  <widget class="QPushButton" name="btnBersih"> <property name="geometry"> <rect> <x>390</x> <y>390</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Bersih</string> </property> </widget>
+  <widget class="QTableWidget" name="tabelBarang">
+   <property name="geometry"> <rect> <x>50</x> <y>440</y> <width>700</width> <height>250</height> </rect> </property>
+   <column><property name="text"><string>ID</string></property></column>
+   <column><property name="text"><string>Kode</string></property></column>
+   <column><property name="text"><string>Nama</string></property></column>
+   <column><property name="text"><string>Stok</string></property></column>
+   <column><property name="text"><string>Satuan</string></property></column>
+  </widget>
+ </widget>
+ <resources/> <connections/>
+</ui>
